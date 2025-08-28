@@ -6,17 +6,16 @@ Ele consiste em uma API REST que fornece piadas aleatórias em JSON para uma pá
 
 ### Funcionalidades principais:
 
-- 🧾 API REST
-- 🛒 Layout responsivo
-- 🔐 Deploy com Docker e Render
+- 📩 API REST
+- 📱 Layout responsivo
+- 📦 Deploy com Docker e Render
 
 ---
 
 ## 💻 Layout da aplicação
 
-### Página inicial e orçamento
-![Página Inicial](assets/impressa1.png)
-![Orçamento](assets/impressa4.png)
+### Página inicial
+![Página Inicial](assets/PiadasInstantaneas.png)
 ---
 
 ## 🚀 Tecnologias utilizadas
@@ -29,7 +28,7 @@ Ele consiste em uma API REST que fornece piadas aleatórias em JSON para uma pá
 - HTML
 - CSS
 
-### 🎨 Deploy
+### 📦 Deploy
 - Docker
 - Render
 
