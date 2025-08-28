@@ -1,0 +1,21 @@
+# Node
+FROM node:20-alpine
+
+# criar pasta
+WORKDIR /app
+
+# Copiar package.json e package-lock.json
+COPY package*.json ./
+
+# instalar dependencias
+RUN npm install
+
+# copia todo o resto do projeto
+COPY . .
+
+#Expõe a porta
+EXPOSE 3000
+
+#roda aplicação
+CMD ["node", "index.js"]
+
