@@ -3,7 +3,6 @@
 Uma API leve que entrega **piadas aleatórias** em JSON para sua página HTML, perfeita pra dar umas risadas rápidas ou treinar habilidades com **Node.js, Express e Docker**.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Otavio72/Piadas-Instantaneas/blob/main/LICENSE)  
-[![Deploy: Render](https://img.shields.io/badge/Deploy-Render-blue)](https://piadas-instantaneas.onrender.com/)
 
 ---
 
