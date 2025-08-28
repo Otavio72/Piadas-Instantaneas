@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Piadas Instantaneas 😅</h1>
+        <p id="piadas">Clique para ver uma piada</p>
+        <button id="gerar">Nova Piada</button>
+    </div>
+
+
+    <script>
+        const piadaNova = document.getElementById('piadas')
+        const button = document.getElementById('gerar')
+
+        async function PuxarPiada() {
+            const resposta = await fetch('/piadas');
+            const data = await resposta.json();
+            piadaNova.textContent = data.piada;
+        }
+
+        button.addEventListener('click', PuxarPiada)
+    </script>
+</body>
+</html>
