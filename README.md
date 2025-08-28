@@ -20,7 +20,7 @@ Uma API leve que entrega **piadas aleatórias** em JSON para sua página HTML, p
 ### Página inicial
 ![Página Inicial](assets/PiadasInstantaneas.png)
 
-*(Dica: se puder adicionar um GIF mostrando a piada mudando em tempo real, fica mais dinâmico.)*
+*(Dica: adicionar um GIF mostrando a piada mudando em tempo real deixa mais dinâmico.)*
 
 ---
 
@@ -49,17 +49,13 @@ cd Piadas-Instantaneas
 npm install
 npm start
 ```
-Depois acesse: http://localhost:3000
-
-# Com Docker
-docker build -t piadas-instantaneas.
+## 📦 Com Docker
+docker build -t piadas-instantaneas
 docker run -p 3000:3000 piadas-instantaneas
+[🔗Depois acesse:]([http://localhost:3000])
 
-Depois acesse: http://localhost:3000
-
-Online
-Piadas Instantâneas no Render
-[🔗Piadas Instantâneas no Render](https://piadas-instantaneas.onrender.com/)
+## 💻 Online
+[Piadas Instantâneas]([https://piadas-instantaneas.onrender.com/])
 
 # Autor
 Otávio Ribeiro
