@@ -50,12 +50,14 @@ npm install
 npm start
 ```
 ## 📦 Com Docker
+```bash
 docker build -t piadas-instantaneas
 docker run -p 3000:3000 piadas-instantaneas
-[🔗Depois acesse:]([http://localhost:3000])
+```
+Depois acesse: http://localhost:3000
 
 ## 💻 Online
-[Piadas Instantâneas]([https://piadas-instantaneas.onrender.com/])
+[Piadas Instantâneas](https://piadas-instantaneas.onrender.com)
 
 # Autor
 Otávio Ribeiro
