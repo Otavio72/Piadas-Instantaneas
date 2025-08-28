@@ -4,12 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                display: flex;
+                justify-content: center; /* centraliza horizontal */
+                align-items: center;     /* centraliza vertical */
+                font-family: 'Segoe UI', Roboto, sans-serif;
+                background-image: url("wallpaper.png"); /* caminho relativo */
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+               
+            }
+
+                /* Tela menor que 480px (celular) */
+                @media (max-width: 480px) {
+                    html, body {
+                        background-image: url("wallpaper-mobile.png");
+                    }
+
+                    .container{
+                        width: 100%;
+                        height: 40%;
+                        font-size: small;
+                    }
+                }
+
+        .container{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: white;
+            align-items: center;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        button {
+            background-color: #e74c3c;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            width: 100px;
+            height: 5vh;
+        }
+
+        button:hover {
+            background-color: #c0392b;
+            transition: 0.3s;
+        }
+
+    </style>
+
 </head>
 <body>
-    <div>
+    
+    
+    <div class="container">
         <h1>Piadas Instantaneas 😅</h1>
-        <p id="piadas">Clique para ver uma piada</p>
-        <button id="gerar">Nova Piada</button>
+        <div>
+            <p id="piadas">Clique para ver uma piada</p>
+        </div>
+
+        <div>
+            <button id="gerar">Nova Piada</button>
+        </div>
     </div>
 
 
