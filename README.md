@@ -2,7 +2,7 @@
 
 Ele consiste em uma API REST que fornece piadas aleatórias em JSON para uma página HTML interativa.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Otavio72/Impressa/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Otavio72/Piadas-Instantaneas/blob/main/LICENSE)
 
 ### Funcionalidades principais:
 
