@@ -1,14 +1,18 @@
-# Piadas Instantâneas 😅
+# 😅 Piadas Instantâneas
 
-Ele consiste em uma API REST que fornece piadas aleatórias em JSON para uma página HTML interativa.
+Uma API leve que entrega **piadas aleatórias** em JSON para sua página HTML, perfeita pra dar umas risadas rápidas ou treinar habilidades com **Node.js, Express e Docker**.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Otavio72/Piadas-Instantaneas/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Otavio72/Piadas-Instantaneas/blob/main/LICENSE)  
+[![Deploy: Render](https://img.shields.io/badge/Deploy-Render-blue)](https://piadas-instantaneas.onrender.com/)
 
-### Funcionalidades principais:
+---
 
-- 📩 API REST
-- 📱 Layout responsivo
-- 📦 Deploy com Docker e Render
+## 🚀 Funcionalidades
+
+- 📩 **API REST:** Endpoints simples que retornam piadas em JSON.  
+- 📱 **Layout responsivo:** Funciona tanto em desktop quanto em mobile.  
+- 📦 **Deploy pronto:** Docker + Render para rodar sem complicação.  
+- ⚡ **Piadas instantâneas:** Cada refresh ou chamada à API traz uma piada nova.
 
 ---
 
@@ -16,24 +20,47 @@ Ele consiste em uma API REST que fornece piadas aleatórias em JSON para uma pá
 
 ### Página inicial
 ![Página Inicial](assets/PiadasInstantaneas.png)
+
+*(Dica: se puder adicionar um GIF mostrando a piada mudando em tempo real, fica mais dinâmico.)*
+
 ---
 
-## 🚀 Tecnologias utilizadas
+## 🛠 Tecnologias utilizadas
 
 ### 🔙 Back end
-- Node.js
+- Node.js  
 - Express
 
 ### 🎨 Front end
-- HTML
+- HTML  
 - CSS
 
 ### 📦 Deploy
-- Docker
+- Docker  
 - Render
 
+---
+
 ## ⚙️ Como executar o projeto
-acesse este link: [Piadas Instantaneas](https://piadas-instantaneas.onrender.com/)
+
+### Localmente
+```bash
+git clone https://github.com/Otavio72/Piadas-Instantaneas.git
+cd Piadas-Instantaneas
+npm install
+npm start
+```
+Depois acesse: http://localhost:3000
+
+# Com Docker
+docker build -t piadas-instantaneas.
+docker run -p 3000:3000 piadas-instantaneas
+
+Depois acesse: http://localhost:3000
+
+Online
+Piadas Instantâneas no Render
+[🔗Piadas Instantâneas no Render](https://piadas-instantaneas.onrender.com/)
 
 # Autor
 Otávio Ribeiro
