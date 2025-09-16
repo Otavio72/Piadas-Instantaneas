@@ -46,13 +46,8 @@ git clone https://github.com/Otavio72/Piadas-Instantaneas.git
 cd Piadas-Instantaneas
 npm install
 npm start
-```
-## 📦 Com Docker
-```bash
-docker build -t piadas-instantaneas
-docker run -p 3000:3000 piadas-instantaneas
-```
 Depois acesse: http://localhost:3000
+```
 
 ## 💻 Online
 [Piadas Instantâneas](https://piadas-instantaneas.onrender.com)
