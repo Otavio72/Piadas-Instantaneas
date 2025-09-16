@@ -45,7 +45,7 @@ Uma API leve que entrega **piadas aleatórias** em JSON para sua página HTML, p
 git clone https://github.com/Otavio72/Piadas-Instantaneas.git
 cd Piadas-Instantaneas
 npm install
-npm start
+node index.js 
 Depois acesse: http://localhost:3000
 ```
 
