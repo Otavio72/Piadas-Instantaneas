@@ -20,8 +20,6 @@ Uma API leve que entrega **piadas aleatórias** em JSON para sua página HTML, p
 ### Página inicial
 ![Página Inicial](assets/PiadasInstantaneas.png)
 
-*(Dica: adicionar um GIF mostrando a piada mudando em tempo real deixa mais dinâmico.)*
-
 ---
 
 ## 🛠 Tecnologias utilizadas
